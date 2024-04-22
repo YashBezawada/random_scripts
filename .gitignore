@@ -1,0 +1,9 @@
+# root files
+*.root
+
+# npz files
+black_resonance_output.npz
+*.npz
+
+# plots
+Plots/*

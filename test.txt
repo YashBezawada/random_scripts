@@ -1,0 +1,228 @@
+Begin processing the 1st record. run: 11673 subRun: 1 event: 4214 at 11-Dec-2023 15:03:45 CST
+PRINCIPAL TYPE: Event
+PROCESS NAME.. | MODULE LABEL.......... | PRODUCT INSTANCE NAME | DATA PRODUCT TYPE................................................... | .SIZE
+DAQ........... | daq................... | TOY1................. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerTOY2........ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | CTB.................. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | UNKNOWN.............. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | Container............ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | TIMING............... | std::vector<artdaq::Fragment>....................................... | ....1
+DAQ........... | daq................... | ContainerInvalid..... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | PHOTON............... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerMISSED...... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | CPUHITS.............. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | DEVBOARDHITS......... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | Empty................ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | Invalid.............. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerCPUHITS..... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerEmpty....... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerFELIX....... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerCRT......... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerUNKNOWN..... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerError....... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerData........ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | Error................ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | unidentified......... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | TOY2................. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerTRIGGER..... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerTOY1........ | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | CRT.................. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerTPC......... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerContainer... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerDEVBOARDHITS | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | TriggerResults........ | ..................... | art::TriggerResults................................................. | ....-
+DAQ........... | daq................... | TRIGGER.............. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerTIMING...... | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerCTB......... | std::vector<artdaq::Fragment>....................................... | ....1
+DAQ........... | daq................... | Data................. | std::vector<artdaq::Fragment>....................................... | ....?
+DAQ........... | daq................... | ContainerPHOTON...... | std::vector<artdaq::Fragment>....................................... | ...23
+DAQ........... | daq................... | MISSED............... | std::vector<artdaq::Fragment>....................................... | ....?
+DecoderandReco | crtreco............... | ..................... | art::Assns<recob::Track,anab::T0,void>.............................. | ....0
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::SpacePoint,recob::Hit,void>....................... | 47420
+DecoderandReco | crttag................ | ..................... | art::Assns<anab::CosmicTag,anab::T0,void>........................... | ....0
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,recob::Slice,void>..................... | ..463
+DecoderandReco | beamevent............. | ..................... | std::vector<beam::ProtoDUNEBeamEvent>............................... | ....1
+DecoderandReco | pandoraShower......... | ..................... | std::vector<recob::PCAxis>.......................................... | ..321
+DecoderandReco | pandoraShowercalonosce | ..................... | art::Assns<recob::Shower,anab::Calorimetry,void>.................... | ..963
+DecoderandReco | crtrawdecoder......... | ..................... | std::vector<CRT::Trigger>........................................... | ....0
+DecoderandReco | pandora............... | ..................... | std::vector<recob::Vertex>.......................................... | ..457
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,recob::SpacePoint,void>................ | 47420
+DecoderandReco | crtreco............... | ..................... | art::Assns<recob::Track,anab::CosmicTag,void>....................... | ....0
+DecoderandReco | wclsdatasp............ | gauss................ | std::vector<recob::Wire>............................................ | 15360
+DecoderandReco | pandoraTrack.......... | ..................... | art::Assns<recob::Track,recob::Hit,void>............................ | 43858
+DecoderandReco | pandoraTrack.......... | ..................... | art::Assns<recob::PFParticle,recob::Track,void>..................... | ..136
+DecoderandReco | timingrawdecoder...... | daq.................. | std::vector<raw::RDTimeStamp>....................................... | ....1
+DecoderandReco | caldata............... | dataprep............. | std::vector<recob::Wire>............................................ | ....?
+DecoderandReco | dbcluster............. | ..................... | art::Assns<recob::Slice,recob::SpacePoint,void>..................... | 16547
+DecoderandReco | pandoracalonosce...... | ..................... | art::Assns<recob::Track,anab::Calorimetry,void>..................... | ..408
+DecoderandReco | pandora............... | ..................... | std::vector<recob::PFParticle>...................................... | ..463
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,recob::Cluster,void>................... | ..972
+DecoderandReco | pandoraShowercalonosce | ..................... | std::vector<anab::Calorimetry>...................................... | ..963
+DecoderandReco | pandoraShower......... | ..................... | art::Assns<recob::Shower,recob::PCAxis,void>........................ | ..321
+DecoderandReco | pandoraShower......... | ..................... | std::vector<recob::Shower>.......................................... | ..321
+DecoderandReco | pandoraShower......... | ..................... | art::Assns<recob::Shower,recob::Hit,void>........................... | .6757
+DecoderandReco | hitpdune.............. | ..................... | std::vector<recob::Hit>............................................. | 58294
+DecoderandReco | pandora............... | ..................... | std::vector<recob::SpacePoint>...................................... | 47420
+DecoderandReco | crttag................ | ..................... | std::vector<anab::CosmicTag>........................................ | ....0
+DecoderandReco | dbcluster............. | ..................... | art::Assns<recob::Slice,recob::Hit,void>............................ | 58196
+DecoderandReco | reco3d................ | ..................... | art::Assns<recob::SpacePoint,recob::Hit,void>....................... | 49990
+DecoderandReco | dbcluster............. | ..................... | std::vector<recob::Slice>........................................... | ..375
+DecoderandReco | reco3d................ | ..................... | std::vector<recob::PointCharge>..................................... | 17236
+DecoderandReco | crttag................ | ..................... | std::vector<anab::T0>............................................... | ....0
+DecoderandReco | pandora............... | ..................... | std::vector<larpandoraobj::PFParticleMetadata>...................... | ..463
+DecoderandReco | pandoracalo........... | ..................... | std::vector<anab::Calorimetry>...................................... | ..408
+DecoderandReco | pandoracalonosce...... | ..................... | std::vector<anab::Calorimetry>...................................... | ..408
+DecoderandReco | gaushit............... | ..................... | std::vector<recob::Hit>............................................. | 58294
+DecoderandReco | pandoraShower......... | ..................... | art::Assns<recob::PFParticle,recob::Shower,void>.................... | ..321
+DecoderandReco | gaushit............... | ..................... | art::Assns<recob::Wire,recob::Hit,void>............................. | 58294
+DecoderandReco | wclsdatasp............ | threshold............ | std::vector<double>................................................. | 15360
+DecoderandReco | ctbrawdecoder......... | daq.................. | std::vector<raw::ctb::pdspctb>...................................... | ....1
+DecoderandReco | TriggerResults........ | ..................... | art::TriggerResults................................................. | ....-
+DecoderandReco | crttag................ | ..................... | art::Assns<CRT::Trigger,anab::CosmicTag,void>....................... | ....0
+DecoderandReco | pandoraShowercalo..... | ..................... | art::Assns<recob::Shower,anab::Calorimetry,void>.................... | ..963
+DecoderandReco | pandora............... | ..................... | std::vector<anab::T0>............................................... | ....0
+DecoderandReco | crtreco............... | ..................... | std::vector<anab::CosmicTag>........................................ | ....0
+DecoderandReco | pandoraTrack.......... | ..................... | std::vector<recob::Track>........................................... | ..136
+DecoderandReco | timingrawdecoder...... | daq.................. | std::vector<dune::ProtoDUNETimeStamp>............................... | ....1
+DecoderandReco | ssprawdecoder......... | external............. | std::vector<raw::OpDetWaveform>..................................... | ..276
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,anab::T0,void>......................... | ....0
+DecoderandReco | pandoraShowercalo..... | ..................... | std::vector<anab::Calorimetry>...................................... | ..963
+DecoderandReco | reco3d................ | ..................... | std::vector<recob::SpacePoint>...................................... | 17236
+DecoderandReco | ssprawdecoder......... | internal............. | std::vector<recob::OpHit>........................................... | ..609
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,larpandoraobj::PFParticleMetadata,void> | ..463
+DecoderandReco | pandoraShower......... | ..................... | art::Assns<recob::PFParticle,recob::PCAxis,void>.................... | ..321
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::Cluster,recob::Hit,void>.......................... | 50665
+DecoderandReco | hitpdune.............. | ..................... | art::Assns<recob::Hit,recob::SpacePoint,void>....................... | 49990
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::PFParticle,recob::Vertex,void>.................... | ..457
+DecoderandReco | pandoracalo........... | ..................... | art::Assns<recob::Track,anab::Calorimetry,void>..................... | ..408
+DecoderandReco | hitpdune.............. | ..................... | art::Assns<recob::Wire,recob::Hit,void>............................. | 58294
+DecoderandReco | crttag................ | ..................... | art::Assns<recob::Track,anab::CosmicTag,void>....................... | ....0
+DecoderandReco | crttag................ | ..................... | art::Assns<recob::Track,anab::T0,void>.............................. | ....0
+DecoderandReco | ssprawdecoder......... | external............. | std::vector<recob::OpHit>........................................... | ..276
+DecoderandReco | pandora............... | ..................... | art::Assns<recob::Slice,recob::Hit,void>............................ | 56178
+DecoderandReco | pandora............... | ..................... | std::vector<recob::Slice>........................................... | ...93
+DecoderandReco | crtreco............... | ..................... | std::vector<anab::T0>............................................... | ....0
+DecoderandReco | caldata............... | dataprep............. | std::vector<raw::RDTimeStamp>....................................... | 15360
+DecoderandReco | pandora............... | ..................... | std::vector<recob::Cluster>......................................... | ..972
+DecoderandReco | ssprawdecoder......... | internal............. | std::vector<raw::OpDetWaveform>..................................... | ..609
+DecoderandReco | pandoraTrack.......... | ..................... | art::Assns<recob::Track,recob::Hit,recob::TrackHitMeta>............. | 43858
+DecoderandReco | crtreco............... | ..................... | art::Assns<CRT::Trigger,anab::CosmicTag,void>....................... | ....0
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Begin processing the 1st record. run: 11673 subRun: 1 event: 4214 at 12-Dec-2023 14:54:49 CST
+PRINCIPAL TYPE: Event
+PROCESS NAME.. | MODULE LABEL.... | PRODUCT INSTANCE NAME | DATA PRODUCT TYPE.............................. | .SIZE
+DAQ........... | daq............. | TOY1................. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerTOY2........ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | CTB.................. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | UNKNOWN.............. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | Container............ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | TIMING............... | std::vector<artdaq::Fragment>.................. | ....1
+DAQ........... | daq............. | ContainerInvalid..... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | PHOTON............... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerMISSED...... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | CPUHITS.............. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | DEVBOARDHITS......... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | Empty................ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | Invalid.............. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerCPUHITS..... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerEmpty....... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerFELIX....... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerCRT......... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerUNKNOWN..... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerError....... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerData........ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | Error................ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | unidentified......... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | TOY2................. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerTRIGGER..... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerTOY1........ | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | CRT.................. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerTPC......... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerContainer... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerDEVBOARDHITS | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | TriggerResults.. | ..................... | art::TriggerResults............................ | ....-
+DAQ........... | daq............. | TRIGGER.............. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerTIMING...... | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerCTB......... | std::vector<artdaq::Fragment>.................. | ....1
+DAQ........... | daq............. | Data................. | std::vector<artdaq::Fragment>.................. | ....?
+DAQ........... | daq............. | ContainerPHOTON...... | std::vector<artdaq::Fragment>.................. | ...23
+DAQ........... | daq............. | MISSED............... | std::vector<artdaq::Fragment>.................. | ....?
+DecoderandReco | beamevent....... | ..................... | std::vector<beam::ProtoDUNEBeamEvent>.......... | ....1
+DecoderandReco | crtrawdecoder... | ..................... | std::vector<CRT::Trigger>...................... | ....0
+DecoderandReco | wclsdatasp...... | gauss................ | std::vector<recob::Wire>....................... | 15360
+DecoderandReco | timingrawdecoder | daq.................. | std::vector<raw::RDTimeStamp>.................. | ....1
+DecoderandReco | caldata......... | dataprep............. | std::vector<recob::Wire>....................... | ....?
+DecoderandReco | hitpdune........ | ..................... | std::vector<recob::Hit>........................ | `58294`
+DecoderandReco | tpcrawdecoder... | daq.................. | art::Assns<raw::RawDigit,raw::RDTimeStamp,void> | 15360
+DecoderandReco | reco3d.......... | ..................... | art::Assns<recob::SpacePoint,recob::Hit,void>.. | 49990
+DecoderandReco | tpcrawdecoder... | daq.................. | std::vector<raw::RDTimeStamp>.................. | 15360
+DecoderandReco | reco3d.......... | ..................... | std::vector<recob::PointCharge>................ | 17236
+DecoderandReco | gaushit......... | ..................... | std::vector<recob::Hit>........................ | 58294
+DecoderandReco | gaushit......... | ..................... | art::Assns<recob::Wire,recob::Hit,void>........ | 58294
+DecoderandReco | wclsdatasp...... | threshold............ | std::vector<double>............................ | 15360
+DecoderandReco | ctbrawdecoder... | daq.................. | std::vector<raw::ctb::pdspctb>................. | ....1
+DecoderandReco | TriggerResults.. | ..................... | art::TriggerResults............................ | ....-
+DecoderandReco | timingrawdecoder | daq.................. | std::vector<dune::ProtoDUNETimeStamp>.......... | ....1
+DecoderandReco | ssprawdecoder... | external............. | std::vector<raw::OpDetWaveform>................ | ..276
+DecoderandReco | reco3d.......... | ..................... | std::vector<recob::SpacePoint>................. | 17236
+DecoderandReco | ssprawdecoder... | internal............. | std::vector<recob::OpHit>...................... | ..609
+DecoderandReco | hitpdune........ | ..................... | art::Assns<recob::Hit,recob::SpacePoint,void>.. | 49990
+DecoderandReco | hitpdune........ | ..................... | art::Assns<recob::Wire,recob::Hit,void>........ | 58294
+DecoderandReco | ssprawdecoder... | external............. | std::vector<recob::OpHit>...................... | ..276
+DecoderandReco | caldata......... | dataprep............. | std::vector<raw::RDTimeStamp>.................. | 15360
+DecoderandReco | ssprawdecoder... | internal............. | std::vector<raw::OpDetWaveform>................ | ..609
+DecoderandReco | tpcrawdecoder... | daq.................. | std::vector<raw::RDStatus>..................... | ....1
+
+Total products (present, not present): 61 (28, 33).
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+// if(!event.getByLabel(art::InputTag(producer_label.label(),instance_label.label()), sTimestampListHandle))
+// {
+//     Logger::GetInstance("DataWrangler")->error(
+//         "no label matching " + producer_label.label() + ":" + 
+//         instance_label.label() + " for raw::RDTimeStamp!"
+//     );
+//     exit(0);
+// }
+// else
+// {
+//     // std::vector<art::Ptr<raw::RDTimeStamp>> timestampList;
+//     // if(event.getByLabel(art::InputTag(producer_label.label(),instance_label.label()), sTimestampListHandle)){ //producer_label
+//     //     art::fill_ptr_vector(timestampList, sTimestampListHandle);
+//     // }
+
+//     sTimestampListHandle = event.getHandle<std::vector<raw::RDTimeStamp>>(
+//         art::InputTag(producer_label.label(), instance_label.label()
+//         )
+//     );
+
+//     if(!sTimestampListHandle.isValid()) 
+//     {
+//         Logger::GetInstance("DataWrangler")->error(
+//             "data product " + producer_label.label() + ":" + 
+//             instance_label.label() + " for raw::RDTimeStamp is invalid!"
+//         );
+//         exit(0);
+//     }
+// }
+
+// //Extracting raw digits from the association with timestamps
+// art::FindManyP<raw::RawDigit> rawDigits(sTimestampListHandle, event, producer_label);
+
+// if(!rawDigits.isValid()) 
+// {
+//     Logger::GetInstance("DataWrangler")->error(
+//         "Extraction of RawDigits from the association was unsuccessful!"
+//     );
+//     exit(0);
+// }
