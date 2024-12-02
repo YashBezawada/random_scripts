@@ -2,6 +2,7 @@
 #include <TChain.h>
 #include <TFile.h>
 #include <iostream>
+#include <map>
 
 #include "TFile.h"
 #include "TCanvas.h"
@@ -17,7 +18,34 @@
 #include "TRandom3.h"
 // #include "ArtieStyle.C"
 
+// std::map<std::string, std::map<std::string, std::vector<double>>> figsOfMerit = {{"Lognormal", {{"peak", {1.,2.,3.,4.,5.}}, {"time", {1.,2.,3.,4.,5.}}}}, {"Sinc", {{"peak", {1.,2.,3.,4.,5.}}, {"time", {1.,2.,3.,4.,5.}}}}};
+std::map<std::string, std::map<std::string, std::vector<double>>> figsOfMerit;
+std::vector<std::string> waveform_fitters = {"Lognormal", "Sinc"};
+// std::map<std::string, std::vector<double>> figsOfMerit = { {"peak", {1.,2.,3.,4.,5.}} , {"time", {1.,2.,3.,4.,5.}} };
+
+Double_t getFOM(std::string key, size_t idx) { return figsOfMerit.at(key).at(idx); }
+
 void test(){
+
+    for (const std::string &fitter_name : waveform_fitters) {
+        // construct arrays for all fitters
+        for (auto& pair : figsOfMerit[fitter_name]) {
+            pair.second.clear();
+        }
+    }
+
+    TFile* outputFile = TFile::Open("test.root", "RECREATE");
+    TTree *outputTree;
+    for (const std::string &fitter_name : waveform_fitters) {
+        for (auto& pair : figsOfMerit[fitter_name]) {
+            outputTree->Branch("fit_" + pair.first + "_" + fitter_name, &pair.second);
+        }
+    }
+
+
+    // std::cout << getFOM("peak", 4) << std::endl;
+
+}
 
     // TFile *file = TFile::Open("/home/yash/ArtieSim/data/Neutron_Gamma_Flux_1cmColli_188m.root","read");
     // std::string histEnergies[7] = {"1", "10", "100", "1000", "10000", "30000", "100000"};
@@ -99,8 +127,6 @@ void test(){
 
     // myFile->WriteObject(profileHist2D, "ProfileHist2D");
 
-    std::string add = "al8";
+    // std::string add = "al8";
 
-    cout << add.c_str() << endl; //Form("tof_hist_filter_%s_in", add.c_str())
-
-}
+    // cout << add.c_str() << endl; //Form("tof_hist_filter_%s_in", add.c_str())
